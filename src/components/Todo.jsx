@@ -120,6 +120,7 @@ const Todo = () => {
 
     return (
         <div className="todo-container">
+            <h1 className="title">To Do List</h1>
             <div className="form-container d-flex justify-content-center">
                 <form onSubmit={handleSubmit}>
                     <input className="form-task" placeholder="What needs to be done?" type="text" value={inputValue} onChange={handleChange} />
