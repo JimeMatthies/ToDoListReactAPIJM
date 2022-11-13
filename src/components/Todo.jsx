@@ -45,6 +45,7 @@ const Todo = () => {
             })
             .then((data) => {
                 console.log(data);
+                console.log(tasks);
             }).catch(error => {
                 console.log(error);
             });
@@ -111,6 +112,7 @@ const Todo = () => {
             })
             .then((data) => {
                 console.log(data);
+                console.log(tasks)
             }).catch(error => {
                 console.log(error);
             });
